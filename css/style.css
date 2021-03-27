@@ -595,6 +595,38 @@ fieldset>input[type=number]:focus {
   display: none;
 }
 
+.logo-footer {
+  font-family: var(--logo-font);
+  padding: 1rem;
+  font-size: 2.2rem;
+  background-color: var(--secondary-color);
+  background-image: linear-gradient(90deg, var(--secondary-color) 0%, var(--gradient2-color) 55%, var(--gradient2-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.lines-out {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lines-out:before,
+.lines-out:after {
+  content: '';
+  border-top: 2px solid;
+  border-color: var(--secondary-color);
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.lines-out:after {
+  margin: 0 0 0 20px;
+}
+
 .col-footer-right {
   flex: 50%;
   background-color: var(--secondary-color);
@@ -613,12 +645,6 @@ fieldset>input[type=number]:focus {
 
 .col-left-text {
   color: black;
-}
-
-.logo-footer {
-  font-family: var(--logo-font);
-  width: 100%;
-  padding: 1rem;
 }
 
 .col-footer-left {
