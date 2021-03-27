@@ -647,6 +647,10 @@ fieldset>input[type=number]:focus {
   color: black;
 }
 
+.w70 {
+  width: 70%;
+}
+
 .col-footer-left {
   flex: 50%;
   height: 500px;
